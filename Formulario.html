@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulari de ejemplo</title>
+</head>
+<body>
+    <h5>BILLING ADDRESS - BLUE NILE</h5>
+    <br>
+    <br>
+    <form action="">
+        <label for=""><b>Would you like to create a Blue Nile Account and store this information</b></label>
+        <input type="radio" value="1" id="Yes" style="color:blue">Yes
+        <input type="radio" value="2" id="No" style="color:blue">NO
+        <br>
+        <br>
+        <label for="">First name</label>
+        <input type="text" required placeholder="Enter your name" minlength="4" id="Name">
+        <br>
+        <label for="">Last name</label>
+        <input type="text" required placeholder="Enter your last name" minlength="4" id="Last name">
+        <br>
+        <label for="">Company</label>
+        <input type="text">
+        <br>
+        <label for="">Phone</label>
+        <input type="number" required minlength="0" maxlength="10" id="Phone">
+        <input type="number" required minlength="0" maxlength="3" id="ext">
+        <a href="">int. number?</a>
+        <br>
+        <label for="">Phone number</label><label for="">Ext.</label>
+        <br>
+        <label for="">Email</label>
+        <input type="email" required placeholder="Enter your email" id="email">
+        <br>
+        <label for="">Re-type Email</label>
+        <input type="email" required placeholder="Enter your email" id="email">
+        <br>
+        <label for=""><i>Enter an addres where we can send an e-mail confirming your order</i></label>
+        <br>
+        <label for="">Address</label>
+        <input type="text" id="address" required>
+        <br>
+        <label for=""></label>
+        <input type="text" id="address" required>
+        <br>
+        <label for="">City</label>
+        <input type="text" id="city" required>
+        <br>
+        <label for="">State</label>
+        <select name="" id="state" required>
+            <option value="1">CA -- California</option>
+            <option value="2">Select your state</option>
+            <option value="3">Nuevo leon</option>
+        </select>
+        <br>
+        <label for="">Zip Code</label>
+        <input type="code" id="Zip code" required>
+        <br>
+        <label for="">Country</label>
+            <select name="" id="country" required>
+            <option value="1">United states</option>
+            <option value="2">Mexico</option>
+        </select>
+        <br>
+        <label for="">Adress type</label>
+        <input type="radio" value="" id="home">Home
+        <input type="radio" value="" id="business">Business
+        <br>
+        <br>
+        <label for="">Are you shipping this order to your billing address?</label>
+        <input type="radio" value="" id="yes">Yes
+        <input type="radio" value="" id="no">No
+
+
+    </form>
+     
+</body>
+</html>

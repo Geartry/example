@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario en Html (Inputs)</h1>
+    <hr>
+    <form action="">
+        <label for="Nombre">Nombre</label>
+        <!--required es un campo obligatorio, placeholder es una guia para el usuario para escribir,
+            minlengt es para el minimo del texto, id es el isentificador del input.-->
+        <input type="text" required placeholder="Ingresa tu nombre" minlength="4" id="Nombre">
+        <br>
+        <br>
+        <label for="Apellido">Apellid</label>
+        <input type="text" required placeholder="ingresa tu apellido" minlength="4" id="Apellido">
+        <br>
+        <br>
+        <!--Valider email-->
+        <label for="Email">Email</label>
+        <input type="email" required placeholder="Ingresa tu correo electronico" id="Email">
+        <br>
+        <br>
+        <!--valid Password-->    
+        <label for="Password">Password</label>
+        <input type="Password" required id="Password">
+        <br>
+        <br>
+        <!--Como igresar numeros-->
+        <label for="Numeros">Telefono</label>
+        <input type="Number" required minlength="0" maxlength="10" id="Telefono">
+        <br>
+        <br>
+        <!--Validar opciones-->
+        <h4>selcciona tu sexo</h4>
+        <input type="radio" value="Masculino" id="Masculino">Masculino
+        <input type="radio" value="Femenino" id="Femenino">Femenino
+        <br>
+        <br>
+        <!--Seleccionar Checkbox-->
+        <h4>Selecciona los aparatos elctronicos que cuentas en tu casa</h4>
+        <input type="checkbox" value="laptop" id="1">laptop
+        <br>
+        <input type="checkbox" value="tv" id="2">TV
+        <br> 
+        <input type="checkbox" value="camara" id="3">Camara
+        <br>
+        <input type="checkbox" value="celular" id="4" checked>Celular 
+        <br>
+        <input type="checkbox" value="tableta" id="5">Tableta
+        <br>
+        <br>
+        <!--Select se utiliza para seleccionar la informacion y option para igresar los datos-->
+        <label for="">Selecciona una opcion</label>
+        <br>
+        <select name="" id="Pais">
+            <option value="0">Selecciona un pais</option>
+            <option value="1">Mexico</option>
+            <option value="2">EUA</option>
+            <option value="3">Francia</option>
+            <option value="4">Italia</option>
+            <option value="5">España</option>
+        </select>
+        <br>
+        <br>
+        <label for="fecha">Slecciona una fecha</label>
+        <input type="date" min="2020-01-01" max="2020-12-31" value="2020-09-04">
+        <br>
+        <br>
+        <label for="mes">Selecciona el mes</label>
+        <input type="month" min="2020-01" max="2020-12" value="2020-09">
+        <br>
+        <br>
+        <label for="año">Selecciona el año</label>
+        <input type="year" min="2010" max="2020" value="2020">
+        <br>
+        <br>
+        <label for="color">Selecciona el color</label>
+        <input type="color">
+        <br>
+        <br>
+        <label for="Volumen">Volumen</label>
+        <input type="range">
+
+
+
+    </form>
+    
+</body>
+</html>
