@@ -7,64 +7,76 @@
 </head>
 <body>
     <h5>BILLING ADDRESS - BLUE NILE</h5>
-    <br>
-    <br>
+    <p style="color: red;">* Please enter a valid zip code for your region.</p>
     <form action="">
         <label for=""><b>Would you like to create a Blue Nile Account and store this information</b></label>
         <input type="radio" value="1" id="Yes" style="color:blue">Yes
         <input type="radio" value="2" id="No" style="color:blue">NO
         <br>
         <br>
-        <label for="">First name</label>
+        <label for="">* First name</label>
         <input type="text" required placeholder="Enter your name" minlength="4" id="Name">
         <br>
-        <label for="">Last name</label>
+        <br>
+        <label for="">* Last name</label>
         <input type="text" required placeholder="Enter your last name" minlength="4" id="Last name">
+        <br>
         <br>
         <label for="">Company</label>
         <input type="text">
         <br>
-        <label for="">Phone</label>
+        <br>
+        <label for="">* Phone</label>
         <input type="number" required minlength="0" maxlength="10" id="Phone">
         <input type="number" required minlength="0" maxlength="3" id="ext">
         <a href="">int. number?</a>
         <br>
         <label for="">Phone number</label><label for="">Ext.</label>
         <br>
-        <label for="">Email</label>
+        <br>
+        <label for="">* Email</label>
         <input type="email" required placeholder="Enter your email" id="email">
         <br>
-        <label for="">Re-type Email</label>
+        <br>
+        <label for="">* Re-type Email</label>
         <input type="email" required placeholder="Enter your email" id="email">
+        <br>
         <br>
         <label for=""><i>Enter an addres where we can send an e-mail confirming your order</i></label>
         <br>
-        <label for="">Address</label>
+        <br>
+        <label for="">* Address</label>
         <input type="text" id="address" required>
+        <br>
         <br>
         <label for=""></label>
         <input type="text" id="address" required>
         <br>
-        <label for="">City</label>
+        <br>
+        <label for="">* City</label>
         <input type="text" id="city" required>
         <br>
-        <label for="">State</label>
+        <br>
+        <label for="">* State</label>
         <select name="" id="state" required>
             <option value="1">CA -- California</option>
             <option value="2">Select your state</option>
             <option value="3">Nuevo leon</option>
         </select>
         <br>
-        <label for="">Zip Code</label>
+        <br>
+        <label for="" style="color: red;"><b>* Zip Code</b></label>
         <input type="code" id="Zip code" required>
         <br>
-        <label for="">Country</label>
+        <br>
+        <label for="">* Country</label>
             <select name="" id="country" required>
             <option value="1">United states</option>
             <option value="2">Mexico</option>
         </select>
         <br>
-        <label for="">Adress type</label>
+        <br>
+        <label for="">* Adress type</label>
         <input type="radio" value="" id="home">Home
         <input type="radio" value="" id="business">Business
         <br>
